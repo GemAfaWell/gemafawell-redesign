@@ -1,7 +1,5 @@
 import { Syne } from 'next/font/google';
 import "./globals.css";
-import NavBar from './components/template/NaviNavComponent';
-import FootNavBar from './components/template/FooterComponent';
 
 const syne = Syne({
   subsets: ['latin'],
@@ -20,9 +18,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${syne.className} antialiased bg-gradient-to-br from-purple-400 to-yellow-300`}
       >
-        <NavBar />
         {children}
-        <FootNavBar />
       </body>
     </html>
   );
