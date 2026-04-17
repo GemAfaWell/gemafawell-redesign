@@ -1,3 +1,5 @@
+import { inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
@@ -8,8 +10,13 @@ export const routes: Routes = [
   },
   {
     path: 'resume',
-    loadComponent: () => import('./resume-page').then((m) => m.ResumePageComponent),
-    title: "Gemini S. Powell's Resume",
+    canActivate: [
+      () => {
+        inject(DOCUMENT).location.href = '/resume.pdf';
+        return false;
+      },
+    ],
+    loadComponent: () => import('./home/home').then((m) => m.HomeComponent),
   },
   {
     path: '**',
