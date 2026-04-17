@@ -24,9 +24,10 @@
       ]
     }
   ],
+  "redirects": [
+    { "source": "/resume", "destination": "/resume.pdf", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/resume.pdf", "destination": "/resume.pdf" },
-    { "source": "/Resume.pdf", "destination": "/resume.pdf" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
