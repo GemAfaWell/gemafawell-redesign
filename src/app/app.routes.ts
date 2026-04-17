@@ -7,6 +7,11 @@ export const routes: Routes = [
     title: 'Gemini S. Powell — Developer Advocate & Full Stack Developer',
   },
   {
+    path: 'resume',
+    loadComponent: () => import('./resume-page').then((m) => m.ResumePageComponent),
+    title: "Gemini S. Powell's Resume",
+  },
+  {
     path: '**',
     redirectTo: '',
   },

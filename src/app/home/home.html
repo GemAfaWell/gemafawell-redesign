@@ -13,6 +13,7 @@
                 <a href="#skills" [class.active]="activeSection() === 'skills'">Skills</a>
                 <a href="#projects" [class.active]="activeSection() === 'projects'">Projects</a>
                 <a href="#contact" [class.active]="activeSection() === 'contact'">Contact</a>
+                <a routerLink="/resume" routerLinkActive="active" ariaCurrentWhenActive="page">Resume</a>
             </nav>
 
             <a href="mailto:gemini&#64;gemafawell.dev" class="nav-cta">Hire Me ↗</a>
@@ -29,6 +30,8 @@
             <a href="#skills" (click)="closeMobileMenu()">Skills</a>
             <a href="#projects" (click)="closeMobileMenu()">Projects</a>
             <a href="#contact" (click)="closeMobileMenu()">Contact</a>
+            <a routerLink="/resume" (click)="closeMobileMenu()" routerLinkActive="active"
+                ariaCurrentWhenActive="page">Resume</a>
             <a href="mailto:gemini&#64;gemafawell.dev" class="mobile-cta" (click)="closeMobileMenu()">Hire Me ↗</a>
         </nav>
         }
