@@ -26,6 +26,7 @@
   ],
   "rewrites": [
     { "source": "/resume.pdf", "destination": "/resume.pdf" },
+    { "source": "/Resume.pdf", "destination": "/Resume.pdf" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
