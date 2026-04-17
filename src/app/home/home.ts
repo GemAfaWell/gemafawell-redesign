@@ -16,11 +16,14 @@ interface SkillCategory {
   readonly skills: readonly string[];
 }
 
+import { RouterLink, RouterLinkActive } from '@angular/router';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.html',
   styleUrl: './home.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [RouterLink, RouterLinkActive],
 })
 export class HomeComponent {
   private readonly document = inject(DOCUMENT);
