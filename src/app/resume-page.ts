@@ -1,4 +1,5 @@
-import { Component, signal, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -6,15 +7,10 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './resume-page.html',
   styleUrls: ['./resume-page.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [RouterLink],
 })
 export class ResumePageComponent {
-  protected readonly showResume = signal(false);
-
   constructor(title: Title) {
     title.setTitle("Gemini S. Powell's Resume");
-  }
-
-  protected revealResume(): void {
-    this.showResume.set(true);
   }
 }
