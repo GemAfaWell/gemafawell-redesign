@@ -335,10 +335,10 @@ __metadata:
   linkType: hard
 
 "@angular/compiler-cli@npm:^21.2.0":
-  version: 21.2.9
-  resolution: "@angular/compiler-cli@npm:21.2.9"
+  version: 21.2.25
+  resolution: "@angular/compiler-cli@npm:21.2.25"
   dependencies:
-    "@babel/core": "npm:7.29.0"
+    "@babel/core": "npm:7.29.7"
     "@jridgewell/sourcemap-codec": "npm:^1.4.14"
     chokidar: "npm:^5.0.0"
     convert-source-map: "npm:^1.5.1"
@@ -347,7 +347,7 @@ __metadata:
     tslib: "npm:^2.3.0"
     yargs: "npm:^18.0.0"
   peerDependencies:
-    "@angular/compiler": 21.2.9
+    "@angular/compiler": 21.2.25
     typescript: ">=5.9 <6.1"
   peerDependenciesMeta:
     typescript:
@@ -355,7 +355,7 @@ __metadata:
   bin:
     ng-xi18n: bundles/src/bin/ng_xi18n.js
     ngc: bundles/src/bin/ngc.js
-  checksum: 10c0/1e66a56d55661e876540bc466622efb656b276c929a670be845b9710479d9e2faeaafa730e5126f46db6245c92ab83c1c4e8a43df59a755bc1ccda08cc6162fe
+  checksum: 10c0/69955a19822e6367240bcb3bdd1da2d7c9808dce75e42df5ac6ecb3bd7e43d24ba8f0d9a96b15ede7a873b945427fd5500a145310593f747a1fb1365fc93d77f
   languageName: node
   linkType: hard
 
@@ -387,33 +387,33 @@ __metadata:
   linkType: hard
 
 "@angular/forms@npm:^21.2.0":
-  version: 21.2.9
-  resolution: "@angular/forms@npm:21.2.9"
+  version: 21.2.25
+  resolution: "@angular/forms@npm:21.2.25"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": 21.2.9
-    "@angular/core": 21.2.9
-    "@angular/platform-browser": 21.2.9
+    "@angular/common": 21.2.25
+    "@angular/core": 21.2.25
+    "@angular/platform-browser": 21.2.25
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 10c0/173d1f1e87419b1744da782f660146b29a1997c21a8ecbfb4c1e43a4bbca11350f7f0e87ad83085aa4161b7ffd9be7d08f000f67595c0deb638087383e55dbaa
+  checksum: 10c0/090350dc0b6d48e9f4d04412567fa2728180a1d0f9e8b2ba8d84595f551ed601e2fbe3bea3526640f97e13c6e7d0a9d99d4825f296d424c80b097f506dbb193f
   languageName: node
   linkType: hard
 
 "@angular/platform-browser@npm:^21.2.9":
-  version: 21.2.9
-  resolution: "@angular/platform-browser@npm:21.2.9"
+  version: 21.2.25
+  resolution: "@angular/platform-browser@npm:21.2.25"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/animations": 21.2.9
-    "@angular/common": 21.2.9
-    "@angular/core": 21.2.9
+    "@angular/animations": 21.2.25
+    "@angular/common": 21.2.25
+    "@angular/core": 21.2.25
   peerDependenciesMeta:
     "@angular/animations":
       optional: true
-  checksum: 10c0/38ab6e3aaac54af87eeae30dd72652f1b69cbcd99159840b3080ee8b23e758fdaaa1c0560e75695acbd4db52dbdd53fda4d055736d30b3c55373bef1f86e9c58
+  checksum: 10c0/0fa25b1d52ff9d7402cf4bfdefda35f4a4b990ac2f2cbfb4478675986d64d40e478c81d1784d6500dbfe80569cfec1ac4b788b1b57c038cf788ddc1a19f73e68
   languageName: node
   linkType: hard
 
