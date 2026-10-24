@@ -1,7 +1,7 @@
 {
   "name": "gemafawell-redesign",
   "version": "0.0.0",
-  "packageManager": "yarn@4.14.0",
+  "packageManager": "yarn@4.18.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
