@@ -31,7 +31,7 @@
     "vitest": "5.0.5"
   },
   "resolutions": {
-    "@babel/core@npm:7.29.0": "7.29.7",
+    "@babel/core@npm:7.29.0": "8.0.9",
     "@modelcontextprotocol/sdk@npm:1.26.0": "1.32.1",
     "ip-address@npm:10.1.0": "10.7.4",
     "pacote@npm:21.3.1": "21.5.1",
